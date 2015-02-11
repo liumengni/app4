@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout"
+     >
+</LinearLayout>
+-->
+<!-- 使用代码和UI一起控制界面元素 -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/mylayout"
+    >
+    <Button android:text="button1" android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+</FrameLayout>
+<!-- 替换鼠标为图片 -->

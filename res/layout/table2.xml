@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:padding="30sp"
+    >
+    <TableRow android:id="@+id/tablerow1"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:background="#ffeeff"
+        >
+        <LinearLayout 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#ababaa"
+            >
+            <TextView android:text="hello"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:autoLink="email"
+                ></TextView>"
+        </LinearLayout>
+       <LinearLayout 
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#ababaa"
+            >
+            <ImageView 
+                android:src="@drawable/ic_launcher"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                ></ImageView>
+            <ImageView 
+                android:src="@drawable/ic_launcher"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                ></ImageView>
+            <ImageView 
+                android:src="@drawable/ic_launcher"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                ></ImageView>"
+        </LinearLayout>"
+   </TableRow>
+   <TableRow android:id="@+id/tablerow2"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:background="#ffbbff"
+        >       
+   </TableRow>
+   <TableRow android:id="@+id/tablerow3"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:background="#ffaaaa"
+        >
+   </TableRow>
+</TableLayout>
+
